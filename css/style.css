@@ -1,0 +1,60 @@
+.navy {
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.navy a {
+    color: white;
+    font-weight: bold;
+}
+
+.navy li a:hover {background-color: black;}
+
+header {
+    height: 450px;
+    color: white;
+    padding: 150px 0;
+    background-image: url('../images/builders/img1.jpg');    
+    background-size: cover;
+}
+
+header h1{font-size: 50px; text-shadow: 2.5px 2.5px 2px black;}
+
+header p {font-size: 20px; text-shadow: 3px 3px 2px black;}
+
+.block-a,
+.block-b {
+    font-size: 20px;
+    padding: 5px 0;
+}
+
+.block-a  div img,
+.block-b div img {
+    width: 400px;
+}
+.block-a {border-top: 1px solid gray; margin: 20px 0}
+.block-b {background-color: #f1f1f1; border-bottom: 1px solid gray;}
+
+.footy {
+    background-color: black;
+    padding: 20px 0;
+    width: 100%;
+    color: white;
+}
+
+.thumbnail img {
+    height: 300px;
+    width: 100%;
+}
+
+.about_para {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.about_para img {
+    float: right;
+    height: 300px;
+    width: 400px;
+}
